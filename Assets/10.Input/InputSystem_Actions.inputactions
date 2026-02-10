@@ -89,12 +89,12 @@
                 },
                 {
                     "name": "Charge",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "d28ddc7c-84b8-4451-8fa0-8812c9a09d5e",
-                    "expectedControlType": "",
+                    "expectedControlType": "Digital",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Dodge",
@@ -430,7 +430,7 @@
                     "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";Keyboard&Mouse",
                     "action": "Charge",
                     "isComposite": false,
                     "isPartOfComposite": false
